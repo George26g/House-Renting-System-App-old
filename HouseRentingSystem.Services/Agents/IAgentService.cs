@@ -6,13 +6,12 @@
 
         bool AgentWithPhoneNumberExists(string phoneNumber);
        
-        int GetAgentId(string userId);
+        int GetAgentId(int userId);
 
-        bool ExistsById(string userId);
+        bool ExistsById(int userId);
 
-        
 
-        void Create(string userId, string phoneNumber);
+        void Create(int userId, string phoneNumber);
     }
 }
 

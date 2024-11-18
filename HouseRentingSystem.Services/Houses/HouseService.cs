@@ -1,9 +1,9 @@
 ﻿// using System.Linq;
 // using System.Collections.Generic;
-// using HouseRentingSystem.Services.Data;
-// using HouseRentingSystem.Services.Data.Entities;
+using HouseRentingSystem.Services.Data;
+using HouseRentingSystem.Services.Data.Entities;
 using HouseRentingSystem.Services.Houses.Models;
-// using HouseRentingSystem.Services.Agents.Models;
+using HouseRentingSystem.Services.Agents.Models;
 using HouseRentingSystem.Services.Users;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
@@ -115,7 +115,7 @@ namespace HouseRentingSystem.Services.Houses
             return houses;
         }
 
-        public IEnumerable<HouseServiceModel> AllHousesByUserId(string userId)
+        public IEnumerable<HouseServiceModel> AllHousesByUserId(int userId)
         {
             var houses = this.data
                   .Houses
@@ -156,7 +156,7 @@ namespace HouseRentingSystem.Services.Houses
             return house.Id;
         }
 
-        public bool HasAgentWithId(int houseId, string currentUserId)
+        public bool HasAgentWithId(int houseId, int currentUserId)
         {
             var house = this.data.Houses.Find(houseId);
             var agent = this.data.Agents.FirstOrDefault(a => a.Id == house.AgentId);
@@ -203,7 +203,7 @@ namespace HouseRentingSystem.Services.Houses
         public bool IsRented(int id)
           => this.data.Houses.Find(id).RenterId != null;
 
-        public bool IsRentedByUserWithId(int houseId, string userId)
+        public bool IsRentedByUserWithId(int houseId, int userId)
         {
             var house = this.data.Houses.Find(houseId);
 
@@ -220,7 +220,7 @@ namespace HouseRentingSystem.Services.Houses
             return true;
         }
 
-        public void Rent(int houseId, string userId)
+        public void Rent(int houseId, int userId)
         {
             var house = this.data.Houses.Find(houseId);
 

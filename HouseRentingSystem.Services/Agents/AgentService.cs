@@ -1,5 +1,5 @@
 ﻿using HouseRentingSystem.Services.Data;
-// using HouseRentingSystem.Services.Data.Entities;
+using HouseRentingSystem.Services.Data.Entities;
 
 namespace HouseRentingSystem.Services.Agents
 {
@@ -17,19 +17,19 @@ namespace HouseRentingSystem.Services.Agents
            => this.data.Agents.Any(a => a.PhoneNumber == phoneNumber);
         
         
-        public int GetAgentId(string userId)
+        public int GetAgentId(int userId)
            => this.data.Agents
                    .FirstOrDefault(a => a.UserId == userId)
                    .Id;
 
-        public bool ExistsById(string userId)
+        public bool ExistsById(int userId)
             => this.data.Agents.Any(a => a.UserId == userId);
 
        
 
         
 
-        public void Create(string userId, string phoneNumber)
+        public void Create(int userId, string phoneNumber)
         {
             var agent = new Agent()
             {

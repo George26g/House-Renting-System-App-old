@@ -6,17 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HouseRentingSystem.Services.Rents
 {
-    public class RentService : IRentService
+    public class RentService(HouseRentingDbContext data,
+        IMapper mapper) : IRentService
     {
-        private readonly HouseRentingDbContext data;
-        private readonly IMapper mapper;
-
-        public RentService(HouseRentingDbContext data,
-            IMapper mapper)
-        {
-            this.data = data;
-            this.mapper = mapper;
-        }
+        private readonly HouseRentingDbContext data = data;
+        private readonly IMapper mapper = mapper;
 
         public IEnumerable<RentServiceModel> All()
         {

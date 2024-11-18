@@ -4,8 +4,8 @@ namespace HouseRentingSystem.Services.Users
 {
     public interface IUserService
     {
-        bool UserHasRents(string userId);
-        string UserFullName(string userId);
+        bool UserHasRents(int userId);
+        string UserFullName(int userId);
         IEnumerable<UserServiceModel> All();
     }
 }

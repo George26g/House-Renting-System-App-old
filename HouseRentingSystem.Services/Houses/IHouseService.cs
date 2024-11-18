@@ -15,7 +15,7 @@ namespace HouseRentingSystem.Services.Houses
 
         IEnumerable<HouseServiceModel> AllHousesByAgentId(int agentId);
 
-        IEnumerable<HouseServiceModel> AllHousesByUserId(string userId);
+        IEnumerable<HouseServiceModel> AllHousesByUserId(int userId);
 
         bool Exists(int id);
 
@@ -29,7 +29,7 @@ namespace HouseRentingSystem.Services.Houses
             string description, string imageUrl, decimal price,
             int categoryId, int agentId);
 
-        bool HasAgentWithId(int houseId, string currentUserId);
+        bool HasAgentWithId(int houseId, int currentUserId);
 
         int GetHouseCategoryId(int houseId);
 
@@ -40,9 +40,9 @@ namespace HouseRentingSystem.Services.Houses
 
         bool IsRented(int id);
 
-        bool IsRentedByUserWithId(int houseId, string userId);
+        bool IsRentedByUserWithId(int houseId, int userId);
 
-        void Rent(int houseId, string userId);
+        void Rent(int houseId, int userId);
 
         void Leave(int houseId);
 

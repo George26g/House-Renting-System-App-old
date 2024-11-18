@@ -20,15 +20,15 @@ namespace HouseRentingSystem.Tests.UnitTests
             this.mapper = MapperMock.Instance;
             this.SeedDatabase();
         }
-        public User Renter { get; private set; }
-        public Agent Agent { get; private set; }
-        public House RentedHouse { get; private set; }
+        public User? Renter { get; private set; }
+        public Agent? Agent { get; private set; }
+        public House? RentedHouse { get; private set; }
 
         private void SeedDatabase()
         {
             this.Renter = new User()
             {
-                Id = "RenterUserId",
+                Id = 1,
                 Email = "rent@er.bg",
                 FirstName = "Renter",
                 LastName = "User"
@@ -40,7 +40,7 @@ namespace HouseRentingSystem.Tests.UnitTests
                 PhoneNumber = "+359111111111",
                 User = new User()
                 {
-                    Id = "TestUserId",
+                    Id = 2,
                     Email = "test@test.bg",
                     FirstName = "Test",
                     LastName = "Tester"
@@ -54,8 +54,8 @@ namespace HouseRentingSystem.Tests.UnitTests
                 Address = "Test, 201 Test",
                 Description = "This is a test description. This is a test description. This is a test description.",
                 ImageUrl = "https://www.bhg.com/thmb/0Fg0imFSA6HVZMS2DFWPvjbYDoQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
-                Renter = this.Renter,
-                Agent = this.Agent,
+                RenterId = this.Renter.Id,
+                AgentId = this.Agent.Id,
                 Category = new Category() { Name = "Cottage" }
             };
             this.data.Houses.Add(this.RentedHouse);
@@ -66,8 +66,8 @@ namespace HouseRentingSystem.Tests.UnitTests
                 Address = "Test, 204 Test",
                 Description = "This is another test description. This is another test description.",
                 ImageUrl = "https://images.adsttc.com/media/images/629f/3517/c372/5201/650f/1c7f/large_jpg/hyde-park-house-robeson-architects_1.jpg?1654601149",
-                Renter = this.Renter,
-                Agent = this.Agent,
+                RenterId = this.Renter.Id,
+                AgentId = this.Agent.User.Id,
                 Category = new Category() { Name = "Single-Family" }
             };
 

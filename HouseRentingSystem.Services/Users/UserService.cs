@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using HouseRentingSystem.Services.Data;
-using HouseRentingSystem.Services.Users.Models;
 using Microsoft.EntityFrameworkCore;
 
+using HouseRentingSystem.Services.Data;
+using HouseRentingSystem.Services.Users.Models;
 namespace HouseRentingSystem.Services.Users
 {
     public class UserService : IUserService
     {
-        public bool UserHasRents(string userId)
+        public bool UserHasRents(int userId)
             => this.data.Houses.Any(h => h.RenterId == userId);
 
 
@@ -22,7 +22,7 @@ namespace HouseRentingSystem.Services.Users
         }
 
 
-        public string UserFullName(string userId)
+        public string UserFullName(int userId)
         {
             var user = this.data.Users.Find(userId);
 
