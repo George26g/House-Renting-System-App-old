@@ -1,0 +1,4 @@
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Tests\obj\Debug\net6.0\HouseRentingSystem.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Tests\obj\Debug\net6.0\HouseRentingSystem.Tests.AssemblyInfoInputs.cache
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Tests\obj\Debug\net6.0\HouseRentingSystem.Tests.AssemblyInfo.cs
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Tests\obj\Debug\net6.0\HouseRentingSystem.Tests.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.AssemblyInfoInputs.cache
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.AssemblyInfo.cs
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.csproj.CoreCompileInputs.cache
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.csproj.AssemblyReference.cache
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.sourcelink.json
