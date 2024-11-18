@@ -4,3 +4,10 @@ C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\Ho
 C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.csproj.CoreCompileInputs.cache
 C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.csproj.AssemblyReference.cache
 C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.sourcelink.json
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\bin\Debug\net8.0\HouseRentingSystem.Services.deps.json
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\bin\Debug\net8.0\HouseRentingSystem.Services.dll
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\bin\Debug\net8.0\HouseRentingSystem.Services.pdb
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.dll
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\refint\HouseRentingSystem.Services.dll
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\HouseRentingSystem.Services.pdb
+C:\Users\gogo1\Desktop\Continuous Integration\02-House-Renting-System-App-old\HouseRentingSystem.Services\obj\Debug\net8.0\ref\HouseRentingSystem.Services.dll
